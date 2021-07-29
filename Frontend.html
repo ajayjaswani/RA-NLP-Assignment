@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<script>
+			function validate() {
+				var name = document.forms["RegForm"]["Name"];
+                var text= document.forms["RegForm"]["Text"];
+				if (name.value == "") {
+					window.alert("Please enter your name.");
+					name.focus();
+					return false;
+				}
+                else if(text.value=""){
+                    window.alert("Please enter text");
+					text.focus();
+					return false;
+            }
+				return true;
+			}
+		</script>
+
+		<style>
+			div {
+				box-sizing: border-box;
+				width: 100%;
+				border: 100px solid black;
+				float: left;
+				align-content: center;
+				align-items: center;
+			}
+
+			form {
+				margin: 0 auto;
+				width: 600px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 style="text-align: center;">Enter your Text Below</h1>
+		<form name="RegForm" action=""
+			onsubmit="return validate()" method="post">
+			<p>Name: <input type="text" size="65" name="Name" /></p>
+			<br />
+            <p>Text: <textarea cols="55" name="Text"> </textarea></p>
+            <p> Or Upload File <input type="file" name="Upload" id="fileselect" name="file"></input></p>
+			<p><input type="submit" value="send" name="Submit" /></p>
+		</form>
+	</body>
+</html>
+
+
+    

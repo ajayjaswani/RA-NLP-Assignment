@@ -1,0 +1,42 @@
+The Sentences in File are:
+Hello!
+My name is Ajay Jaswani.
+I'm a student at University of Arizona.
+
+The Number of Sentences is File are: 3
+
+The words in File are:
+Hello
+!
+My
+name
+is
+Ajay
+Jaswani
+.
+I
+'m
+a
+student
+at
+University
+of
+Arizona
+.
+
+The number of words in File are: 17
+
+The nouns in file are:
+name = NN
+Ajay = NNP
+Jaswani = NNP
+student = NN
+University = NNP
+Arizona = NNP
+
+The number of nouns in File are: 6
+
+The sentiments of sentences in File are:
+Hello!:	Neutral
+My name is Ajay Jaswani.:	Neutral
+I'm a student at University of Arizona.:	Positive
